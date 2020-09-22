@@ -4,7 +4,7 @@
   "description": "ものは試し",
   "main": "index.js",
   "dependencies": {
-    "zenn-cli": "^0.1.31"
+    "zenn-cli": "^0.1.32"
   },
   "devDependencies": {},
   "scripts": {
