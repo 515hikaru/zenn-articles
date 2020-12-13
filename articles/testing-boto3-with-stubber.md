@@ -6,13 +6,30 @@ topics: ["Python", "Testing", "boto3"]
 published: false
 ---
 
-# boto3 のテスト
+# はじめに
 
-- 正常系
-    - クライアントを mock する
-    - レスポンスを mock する
-- 異常系
-    - ClientError でエラーハンドリング
-    - 例外を mock で起こす
-- API を叩くテストをする w/restframework
-    - mock.patch と with でよしなにこうやっていく
+普段 Python でサーバーサイド開発をしています。インフラは AWS を利用しており、S3 や Cognito など AWS のリソースを使うには boto3 などを利用します。
+
+もちろん単体テストを書きたいわけですが、自動実行されるテストで実際に AWS のリソースを使うわけにはいかず、mock する必要があります。
+
+当初はナイーブに unittest.mock を使っていたのですが、いろいろと調べると Stubber という boto3 用の単体テストをするためのクラスが提供されていることに気づいたのでその紹介です。
+
+# Stubber クラス
+
+## 正常系の mock
+
+## 異常系の mock
+
+# テストコード例
+
+## 関数やクラスのメソッドの単体テスト
+
+### 実装
+
+### テスト
+
+## API のテスト( Django rest framework)
+
+### 実装
+
+### テスト
