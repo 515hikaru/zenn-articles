@@ -1,5 +1,5 @@
 ---
-title: "boto3の単体テスト"
+title: "Stubber クラスを用いた boto3 を使うメソッドのテストコード実装例"
 emoji: "🦔"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Python", "Testing", "boto3"]
