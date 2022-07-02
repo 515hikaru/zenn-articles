@@ -4,9 +4,8 @@
   "description": "ものは試し",
   "main": "index.js",
   "dependencies": {
-    "zenn-cli": "^0.1.59"
+    "zenn-cli": "^0.1.114"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
