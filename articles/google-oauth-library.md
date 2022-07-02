@@ -10,6 +10,18 @@ Google (Workspace など) の API クライアントライブラリを使う際�
 
 [googleapis/google-api-python-client: 🐍 The official Python client library for Google's discovery based APIs.](https://github.com/googleapis/google-api-python-client)
 
-## Credential オブジェクト
+## API をコールするために必要なもの
 
-## つらい
+## Credential オブジェクトの生成方法
+
+### expiry の計算
+
+## Credential オブジェクトを自前で作る
+
+### トークンリクエスト
+
+### ストアしたデータから Credential オブジェクトを作る
+
+## 実際に API を呼ぶ
+
+## 終わりに
