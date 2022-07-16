@@ -1,9 +1,9 @@
 ---
 title: "GitHub Container Registry に自作の Docker イメージを公開する"
-emoji: "⛳"
+emoji: "🐋"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Docker", "GitHub Actions", "GitHub Packages"]
-published: false
+published: true
 ---
 
 Docker 社が、DockerHub の機能である Automated Builds を有料プランのみに提供するように変更しました。投稿日の 1 年ほど前、2021 年の 6 月のことです。
