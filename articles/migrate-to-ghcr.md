@@ -135,11 +135,11 @@ jobs:
 
 ### ログインなしで使う
 
-GitHub Container Registry はイメージをログインなしで取得できます。ということで、GitLab CI の YAML などでログインなしで取得することができます。ということで、単に下記のように宣言するだけで GitHub Container Registry にあるイメージは使えます。
+GitHub Container Registry はイメージをログインなしで取得できます。ということで、GitLab CI の YAML などでログインなしで取得することができます。つまり、単に下記のように宣言するだけで GitHub Container Registry にあるイメージは使えるわけです。
 
 ```yaml
 # .gitlab-ci.yml
-image: ghcr.io/515hikaru/pnovel:v0.7.0
+image: ghcr.io/515hikaru/pnovel:latest
 ```
 
 試してませんが、たぶん CircleCI など Docker イメージを利用する前提の CI サービスではログインなしで使えると思います。
@@ -148,7 +148,7 @@ image: ghcr.io/515hikaru/pnovel:v0.7.0
 
 `:latest` や `:$COMMIT_HASH` でタグ付けすることでコミットごとにイメージの生成・保存ができています。
 
-また、今回は紹介していませんが Git の tag をつけて push したときに Docker イメージをビルド & push もできるので、npm に公開したバージョンで Docker イメージを作る、といったこともできます。
+また、今回は紹介していませんが Git の tag をつけて push したときに Docker イメージをビルド & push もできるので、npm に公開したバージョンで Docker イメージを作る、といったこともできます（し、やっています）。
 
 ### 無料
 
