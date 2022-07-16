@@ -5,3 +5,5 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["GitHub Actions", "Dependabot"]
 published: false
 ---
+
+TBD
