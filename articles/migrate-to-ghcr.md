@@ -95,7 +95,7 @@ docker build --tag ghcr.io/$GITHUB_ACTOR/pnovel:$(echo $GITHUB_SHA | head -c7)
           docker push ghcr.io/$GITHUB_ACTOR/pnovel:$(echo $GITHUB_SHA | head -c7)
 ```
 
-## YAML 前景
+## YAML 全容
 
 上記の YAML を完全形にすると次のような形になります。
 
