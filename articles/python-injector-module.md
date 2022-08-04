@@ -6,6 +6,8 @@ topics: ["Python", "Dependency Injection"]
 published: true
 ---
 
+※この投稿は、[Python の DI コンテナ実装の紹介と活用例 - All You Need Is Writing](https://tech-hikaru515.hatenablog.com/entry/python-injector-module)という 2021年 5 月 23 日に公開した記事の再掲です。
+
 最近 fukabori.fm という Podcast で DI(Dependency Injection) の話を聞いた。
 
 https://fukabori.fm/episode/48
