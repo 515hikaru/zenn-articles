@@ -22,7 +22,7 @@ https://fukabori.fm/episode/48
 
 https://github.com/alecthomas/injector
 
-PyPI (Pythhon Package Index) に injector という名前のパッケージで登録されている。つまり、下記のように pip でインストールできる。
+PyPI (Python Package Index) に injector という名前のパッケージで登録されている。つまり、下記のように pip でインストールできる。
 
 ```
 pip install injector
