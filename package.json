@@ -4,7 +4,7 @@
   "description": "ものは試し",
   "main": "index.js",
   "dependencies": {
-    "zenn-cli": "^0.1.121"
+    "zenn-cli": "^0.1.122"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
