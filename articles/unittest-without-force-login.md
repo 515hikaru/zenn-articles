@@ -3,7 +3,7 @@ title: "認証にトークンを利用する API の単体テストを書く"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Django", "Python", "Test"]
-published: true
+published: false
 ---
 
 この記事は [Django Advent Calendar 2022 - Qiita](https://qiita.com/advent-calendar/2022/django) の 12/18 の記事です。
